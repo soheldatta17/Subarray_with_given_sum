@@ -7,7 +7,7 @@ class Solution:
 	    start = 0
 	    i = 1
 	    while i <= n:
-	        while sum > s and start < i-1:
+	      while sum > s and start < i-1:
 	            sum -= arr[start]
 	            start += 1
 		    if sum == s:
